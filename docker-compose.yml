@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  blog-service:
+    build: .
+    volumes:
+      - ./studio:/app/studio
+    ports:
+      - "3333:3333"
+
+  web-service:
+    build: .
+    volumes:
+      - ./web:/app/web
+    ports:
+      - "8000:8000"

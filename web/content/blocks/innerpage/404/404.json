@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "404 Page Not Found",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Desculpe, essa página não está disponível",
+      "variant": "h2"
+    },
+    {
+      "text": "Você pode apertar no botão a baixo para voltar para a página principal."
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Voltar ao início",
+      "type": "PAGE",
+      "link": "/",
+      "variant": "primary"
+    }
+  ]
+}
