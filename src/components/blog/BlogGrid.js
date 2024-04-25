@@ -165,10 +165,10 @@ function BlogGrid({ blogs }) {
                         />
                         {/* Excerpt */}
                         <ContentText
-                          content={{ text: item.excerpt[0]?.children[0]?.text }}
-                          variant='small'
-                          sx={{ flex: `auto`, mb: 3 }}
-                        />
+                            content={{ text: item.excerpt && item.excerpt[0]?.children && item.excerpt[0].children[0]?.text }}
+                            variant='small'
+                            sx={{ flex: `auto`, mb: 3 }}
+                          />
                         {/* Footer */}
                         <Box sx={{ variant: `text.small` }}>
                           <Flex sx={styles.footerWrapper}>
