@@ -27,7 +27,7 @@ const styles = {
   content: {
     alignItems: `stretch`,
     flexDirection: [`row`, null, null, `column`],
-    height: `full`,
+    height: `full`, // Definindo a altura do card
   },
   body: {
     display: `flex`,
