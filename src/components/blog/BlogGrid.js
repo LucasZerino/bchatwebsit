@@ -173,7 +173,7 @@ function BlogGrid({ blogs }) {
                         <Box sx={{ variant: `text.small` }}>
                           <Flex sx={styles.footerWrapper}>
                             {/* Renderiza a imagem do autor */}
-                            {renderImage(item.authorImage, { alt: item.authorImage.alt }, styles.avatar)}
+                            {item.authorImage && renderImage(item.authorImage, { alt: item.authorImage.alt }, styles.avatar)}
                             <Flex sx={styles.postInfo}>
                               {/* Author */}
                             
