@@ -181,7 +181,7 @@ const SingleBlog = ({ data }) => {
                               {blog.body &&
                                 blog.body.map((paragraph, index) => {
                                   // Verifica se o texto do parágrafo não está vazio
-                                  if (paragraph.children[0].text.trim() !== '') {
+                                  if (paragraph.children[0] && paragraph.children[0].text.trim() !== '') {
                                     return (
                                       <div key={index}>
                                         <p>{paragraph.children[0].text}</p>
